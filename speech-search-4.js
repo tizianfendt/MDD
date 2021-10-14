@@ -37,12 +37,12 @@ var voice = {
           voice.stop();
           
           // WHAT HAPPENS AFTER VOICE END
-          setTimeout(function(){
+          /*setTimeout(function(){
           
           
-          }, 2000);
-          /* pass url parameter
-          console.log("USER JUST SAID SOMETHING");*/
+          }, 2000);*/
+          /* pass url parameter*/
+          console.log("USER JUST SAID SOMETHING");
         };
 
         // READY!
@@ -54,10 +54,10 @@ var voice = {
       });
       
       // LISTEN AS SOON AS WEBSITE LOADS    
-      setTimeout(function(){
+      /*setTimeout(function(){
       voice.start();    
           
-          }, 2000);
+          }, 2000);*/
      
 
     }
