@@ -36,13 +36,15 @@ var voice = {
           // OR RUN AN AJAX/FETCH SEARCH
           voice.stop();
           
+          console.log("USER JUST SAID SOMETHING");
+          
           // WHAT HAPPENS AFTER VOICE END
           /*setTimeout(function(){
           
           
           }, 2000);*/
           /* pass url parameter*/
-          console.log("USER JUST SAID SOMETHING");
+          
         };
 
         // READY!
