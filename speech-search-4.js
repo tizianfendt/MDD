@@ -70,7 +70,7 @@ var voice = {
 
   // (B) START SPEECH RECOGNITION
   start : function () {
-    console.log("start listening");
+    //console.log("start listening");
     voice.recog.start();
     voice.sbtn.onclick = voice.stop;
     voice.sbtn.value = "Speak Now Or Click Again To Cancel";
